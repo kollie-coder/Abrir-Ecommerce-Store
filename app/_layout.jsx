@@ -9,8 +9,7 @@ const _layout = () => {
       <Stack initialRouteName='Home'>
         <Stack.Screen name='index' options={{ headerShown: false }}/>
         <Stack.Screen name='(tabs)' options={{ headerShown: false }}  />
-        <Stack.Screen name='ProductDetailScreen' options={{ headerShown: false }}/>
-        <Stack.Screen name='CartScreen' options={{ headerShown: false }} />
+
     </Stack>
     </CartProvider>
     

@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, Text, View } from 'react-native'
 import React, { useContext } from 'react'
 import { CartCard, Header, TextButton } from '../../components'
 import { LinearGradient } from 'expo-linear-gradient'
-import { CartContext } from '@/context/CartContext'
+import { CartContext } from '../../context/CartContext';
 
 const cart = () => {
   const { cartItems, totalPrice, deleteItemFromCart  } = useContext(CartContext);

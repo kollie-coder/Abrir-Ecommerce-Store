@@ -111,29 +111,29 @@ export const SIZES = {
 };
 
 export const FONTS = {
-    t1: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.t1, lineHeight: 64 },
-    t2: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.t2, lineHeight: 52 },
-    t3: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.t3, lineHeight: 44 },
+    t1: {  fontSize: SIZES.t1, lineHeight: 64 },
+    t2: {  fontSize: SIZES.t2, lineHeight: 52 },
+    t3: {  fontSize: SIZES.t3, lineHeight: 44 },
 
-    h1: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.h1, lineHeight: 40 },
-    h2: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.h2, lineHeight: 36 },
-    h3: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.h3, lineHeight: 32 },
-    h4: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.h4, lineHeight: 28 },
+    h1: { fontSize: SIZES.h1, lineHeight: 40 },
+    h2: {  fontSize: SIZES.h2, lineHeight: 36 },
+    h3: {  fontSize: SIZES.h3, lineHeight: 32 },
+    h4: {  fontSize: SIZES.h4, lineHeight: 28 },
 
-    l1: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.l1, lineHeight: 24 },
-    l2: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.l2, lineHeight: 20 },
-    l3: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.l3, lineHeight: 16 },
-    l4: { fontFamily: "Nunito Sans 10pt Bold", fontSize: SIZES.l4, lineHeight: 16 },
+    l1: {  fontSize: SIZES.l1, lineHeight: 24 },
+    l2: {  fontSize: SIZES.l2, lineHeight: 20 },
+    l3: {  fontSize: SIZES.l3, lineHeight: 16 },
+    l4: {  fontSize: SIZES.l4, lineHeight: 16 },
 
-    ps1: { fontFamily: "Nunito Sans 10pt SemiBold", fontSize: SIZES.ps1, lineHeight: 28 },
-    ps2: { fontFamily: "Nunito Sans 10pt SemiBold", fontSize: SIZES.ps2, lineHeight: 24 },
-    ps3: { fontFamily: "Nunito Sans 10pt SemiBold", fontSize: SIZES.ps3, lineHeight: 20 },
-    ps4: { fontFamily: "Nunito Sans 10pt SemiBold", fontSize: SIZES.ps4, lineHeight: 20 },
+    ps1: {  fontSize: SIZES.ps1, lineHeight: 28 },
+    ps2: {  fontSize: SIZES.ps2, lineHeight: 24 },
+    ps3: {  fontSize: SIZES.ps3, lineHeight: 20 },
+    ps4: {  fontSize: SIZES.ps4, lineHeight: 20 },
 
-    pr1: { fontFamily: "Nunito Sans 10pt Regular", fontSize: SIZES.pr1, lineHeight: 28 },
-    pr2: { fontFamily: "Nunito Sans 10pt Regular", fontSize: SIZES.pr2, lineHeight: 24 },
-    pr3: { fontFamily: "Nunito Sans 10pt Regular", fontSize: SIZES.pr3, lineHeight: 20 },
-    pr4: { fontFamily: "Nunito Sans 10pt Regular", fontSize: SIZES.pr4, lineHeight: 20 },
+    pr1: {  fontSize: SIZES.pr1, lineHeight: 28 },
+    pr2: {  fontSize: SIZES.pr2, lineHeight: 24 },
+    pr3: {  fontSize: SIZES.pr3, lineHeight: 20 },
+    pr4: {  fontSize: SIZES.pr4, lineHeight: 20 },
 };
 
 const appTheme = { COLORS, SIZES, FONTS };

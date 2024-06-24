@@ -13,11 +13,13 @@ export const CartProvider = ({ children }) => {
       try {
         const storedCartItems = await AsyncStorage.getItem("carts");
         if (storedCartItems !== null) {
-          setCartItems(JSON.parse(storedCartItems));
 
-          // retrieving the total sum from the async storage 
-          totalSum(storedCartItems);
+          // Parse storedCartItems to ensure it's an array
+          const parsedCartItems = JSON.parse(storedCartItems);
+          setCartItems(parsedCartItems);
 
+          // Calculate total sum from parsedCartItems
+          totalSum(parsedCartItems);
         }
       } catch (error) {
         console.error("Failed to load cart items", error);
@@ -39,11 +41,11 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-  const totalSum = (cartItems) => {
-    const totalSum = cartItems.reduce((amount, item) => amount + item.price, 0);
+  const totalSum = (items) => {
+    const total = items.reduce((amount, item) => amount + item.price, 0);
     
-    console.log('totalSum', totalSum);
-    setTotalPrice(totalSum);
+    console.log('totalSum', total);
+    setTotalPrice(total);
   };
 
   const deleteItemFromCart = async(item) => {
